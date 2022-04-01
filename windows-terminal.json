@@ -44,7 +44,6 @@
         "list": 
         [
             {
-                "colorScheme": "Blue Matrix",
                 "font": 
                 {
                     "face": "CaskaydiaCove NF"
@@ -66,7 +65,7 @@
                 "name": "Windows PowerShell"
             },
             {
-                "colorScheme": "Blue Matrix",
+                "colorScheme": "DimmedMonokai",
                 "commandline": "cmd.exe",
                 "font": 
                 {
@@ -78,21 +77,26 @@
             },
             {
                 "colorScheme": "Blue Matrix",
+                "font": 
+                {
+                    "face": "CaskaydiaCove NF"
+                },
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "colorScheme": "Tango Dark",
                 "commandline": "wsl ~",
                 "font": 
                 {
                     "face": "CaskaydiaCove NF"
                 },
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
-                "name": "Ubuntu",
+                "name": "Ubuntu-20.04",
                 "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
             }
         ]
     },
@@ -120,29 +124,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C7C7C7",
             "yellow": "#FFFC58"
-        },
-        {
-            "background": "#000000",
-            "black": "#000000",
-            "blue": "#0000BB",
-            "brightBlack": "#555555",
-            "brightBlue": "#5555FF",
-            "brightCyan": "#55FFFF",
-            "brightGreen": "#55FF55",
-            "brightPurple": "#FF55FF",
-            "brightRed": "#FF5555",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFF55",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#00BBBB",
-            "foreground": "#BBBBBB",
-            "green": "#00BB00",
-            "name": "Builtin Dark",
-            "purple": "#BB00BB",
-            "red": "#BB0000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#BBBBBB",
-            "yellow": "#BBBB00"
         },
         {
             "background": "#0C0C0C",
@@ -189,6 +170,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#1F1F1F",
+            "black": "#3A3D43",
+            "blue": "#4F76A1",
+            "brightBlack": "#888987",
+            "brightBlue": "#186DE3",
+            "brightCyan": "#2E706D",
+            "brightGreen": "#0F722F",
+            "brightPurple": "#FB0067",
+            "brightRed": "#FB001F",
+            "brightWhite": "#FDFFB9",
+            "brightYellow": "#C47033",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#578FA4",
+            "foreground": "#B9BCBA",
+            "green": "#879A3B",
+            "name": "DimmedMonokai",
+            "purple": "#855C8D",
+            "red": "#BE3F48",
+            "selectionBackground": "#FFFFFF",
+            "white": "#B9BCBA",
+            "yellow": "#C5A635"
         },
         {
             "background": "#282C34",
@@ -352,5 +356,5 @@
             "yellow": "#808000"
         }
     ],
-    "theme": "system"
+    "theme": "dark"
 }
